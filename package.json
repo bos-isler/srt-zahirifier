@@ -1,12 +1,12 @@
 {
   "name": "srt-zahirifier",
-  "version": "0.0.1",
+  "version": "0.0.3",
   "description": "",
   "bin": {
-    "zahirify": "./build/cli.js"
+    "zahirify": "lib/cli.js"
   },
   "scripts": {
-    "build": "tsc"
+    "prepublish": "tsc"
   },
   "author": "iGoodie",
   "license": "ISC",
